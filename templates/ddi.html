@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+
+{% block title %}DrugSafe - Drug Interaction Checker{% endblock %}
+
+{% block extra_css %}
+<style>
+.checker-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.result-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .4s ease;
+}
+
+.result-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Risk Meter */
+.risk-wrap { margin-top: 10px; }
+.risk-label { font-weight: 600; margin-bottom: 6px; }
+.risk-bar {
+    height: 12px;
+    border-radius: 10px;
+    background: #e5e7eb;
+    overflow: hidden;
+}
+.risk-fill {
+    height: 12px;
+    border-radius: 10px;
+}
+.risk-safe .risk-fill { background: #16a34a; }
+.risk-warn .risk-fill { background: #f59e0b; }
+.risk-unsafe .risk-fill { background: #ef4444; }
+
+.powered-by {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: right;
+    color: #555;
+}
+.provider-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #e0f2fe;
+    color: #0369a1;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="checker-container">
+
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold">Drug–Drug Interaction Checker</h1>
+            <p class="lead text-secondary">
+                Check potential interactions between two medications
+            </p>
+        </div>
+
+        <div class="card shadow-lg border-0">
+            <div class="card-body p-4">
+
+                <form id="ddi-form">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <input type="text"
+                                   class="form-control form-control-lg"
+                                   id="drug1"
+                                   placeholder="Enter first drug (e.g., Warfarin)"
+                                   required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text"
+                                   class="form-control form-control-lg"
+                                   id="drug2"
+                                   placeholder="Enter second drug (e.g., Ibuprofen)"
+                                   required>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit"
+                                class="btn btn-primary rounded-pill px-4">
+                            Check Interaction
+                        </button>
+                    </div>
+                </form>
+
+                <div id="ddi-result"
+                     class="result-card mt-4 card p-4">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+
+function riskSettings(level) {
+    const l = (level || "").toLowerCase();
+
+    if (l.includes("unsafe")) {
+        return { cls: "risk-unsafe", width: "100%" };
+    }
+    if (l.includes("caution")) {
+        return { cls: "risk-warn", width: "60%" };
+    }
+    if (l.includes("safe")) {
+        return { cls: "risk-safe", width: "30%" };
+    }
+
+    return { cls: "risk-warn", width: "60%" };
+}
+
+document.getElementById("ddi-form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const drug1 = document.getElementById("drug1").value.trim();
+    const drug2 = document.getElementById("drug2").value.trim();
+    const resultDiv = document.getElementById("ddi-result");
+
+    if (!drug1 || !drug2) return;
+
+    resultDiv.innerHTML = "Analyzing interaction...";
+    resultDiv.classList.remove("show");
+
+    try {
+        const response = await fetch("/check_ddi", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({ drug1, drug2 })
+        });
+
+        const data = await response.json();
+        const r = data.DDI_Result || data;
+
+        if (!r || !r.safety) {
+            resultDiv.innerHTML =
+                `<p class="text-danger">⚠️ No interaction data available.</p>`;
+            resultDiv.classList.add("show");
+            return;
+        }
+
+        const risk = riskSettings(r.safety);
+
+        const sideEffects =
+            (r.side_effects && r.side_effects.length)
+                ? r.side_effects.map(s => `<li>${s}</li>`).join("")
+                : "<li>Not specified</li>";
+
+        resultDiv.innerHTML = `
+            <h5 class="fw-bold mb-3">${r.interaction}</h5>
+
+            <div class="risk-wrap ${risk.cls}">
+                <div class="risk-label">
+                    Risk Level: ${r.safety}
+                </div>
+                <div class="risk-bar">
+                    <div class="risk-fill" style="width:${risk.width};"></div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h6>🧠 Mechanism</h6>
+            <p>${r.mechanism || "No explanation provided."}</p>
+
+            <h6>💊 Side Effects</h6>
+            <ul>${sideEffects}</ul>
+
+            <h6>💬 Medical Advice</h6>
+            <p>${r.advice || "Consult healthcare provider."}</p>
+
+            <div class="powered-by">
+                <span class="provider-badge">
+                    Powered by ${r.provider || "Groq"}
+                </span>
+            </div>
+        `;
+
+        resultDiv.classList.add("show");
+
+    } catch (error) {
+        resultDiv.innerHTML =
+            `<p class="text-danger">❌ ${error.message}</p>`;
+        resultDiv.classList.add("show");
+    }
+});
+
+</script>
+{% endblock %}

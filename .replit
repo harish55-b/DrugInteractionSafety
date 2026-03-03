@@ -1,0 +1,40 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["glibcLocales"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Drug-Food Classifier"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "drug_food_interaction_cli"
+
+[[workflows.workflow]]
+name = "Drug-Food Classifier"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install pandas scikit-learn numpy joblib && python main.py --interactive"
+
+[[workflows.workflow]]
+name = "drug_food_interaction_cli"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install pandas scikit-learn numpy joblib && python main.py --interactive"
+
+[deployment]
+run = ["sh", "-c", "pip install pandas scikit-learn numpy joblib && python main.py --interactive"]

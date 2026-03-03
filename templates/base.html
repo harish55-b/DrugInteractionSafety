@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}DrugSafe - Intelligent Drug Safety Platform{% endblock %}</title>
+
+    <!-- Core Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Global Styling -->
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary-color: #64748b;
+            --background-color: #f8fafc;
+            --surface-color: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            background-color: var(--background-color);
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: var(--surface-color);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+
+        .nav-link {
+            color: var(--text-secondary) !important;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border-radius: .5rem;
+            margin: 0 .25rem;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-color) !important;
+            background-color: rgba(37,99,235,0.1);
+        }
+
+        /* Card and Button Styling */
+        .card {
+            border-radius: 1rem;
+            border: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--surface-color);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer h5 {
+            font-weight: 600;
+        }
+
+        .footer-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: block;
+            padding: 0.25rem 0;
+        }
+
+        .footer-link:hover {
+            color: var(--primary-color);
+            transform: translateX(5px);
+        }
+
+        .social-link {
+            width: 36px;
+            height: 36px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(37,99,235,0.1);
+            color: var(--primary-color);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            margin-right: 8px;
+        }
+
+        .social-link:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-3px);
+        }
+    </style>
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <i class="bi bi-shield-check"></i> DrugSafe
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'home' %}active{% endif %}" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'checker' %}active{% endif %}" href="/checker">Safety Checker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'ddi_page' %}active{% endif %}" href="/ddi">Drug–Drug Checker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'druginfo_page' %}active{% endif %}" href="/druginfo">Drug Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'about' %}active{% endif %}" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.endpoint == 'contact' %}active{% endif %}" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Page Content -->
+<div class="content-wrapper">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- Footer -->
+<footer class="footer text-center text-md-start">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="fw-bold">DrugSafe</h5>
+                <p class="text-secondary">Making medication safety accessible through AI-driven insights.</p>
+                <div>
+                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="fw-bold">Quick Links</h5>
+                <a href="/" class="footer-link">Home</a>
+                <a href="/checker" class="footer-link">Safety Checker</a>
+                <a href="/ddi" class="footer-link">Drug–Drug Checker</a>
+                <a href="/druginfo" class="footer-link">Drug Info</a>
+                <a href="/about" class="footer-link">About</a>
+                <a href="/contact" class="footer-link">Contact</a>
+            </div>
+            <div class="col-md-4">
+                <h5 class="fw-bold">Important Notice</h5>
+                <div class="alert alert-warning small">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                    This tool is for educational purposes only. Always consult healthcare professionals for medical advice.
+                </div>
+                <p class="text-secondary small mb-0">© 2025 DrugSafe. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({ duration: 800, once: true });
+</script>
+
+{% block extra_js %}{% endblock %}
+</body>
+</html>

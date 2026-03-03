@@ -1,0 +1,8 @@
+drug1,drug2,severity,note
+aspirin,warfarin,Severe,Increased bleeding risk; requires INR monitoring/avoid unless supervised.
+ibuprofen,lisinopril,Moderate,NSAIDs may blunt antihypertensive effect; monitor BP/renal function.
+metformin,alcohol,Moderate,Alcohol increases lactic acidosis risk with metformin; avoid excess.
+clopidogrel,omeprazole,Moderate,Omeprazole can reduce clopidogrel activation; consider pantoprazole.
+simvastatin,clarithromycin,Severe,Strong CYP3A4 inhibition → statin toxicity; avoid combination.
+warfarin,fluconazole,Severe,Fluconazole potentiates warfarin; bleeding risk; monitor INR/dose adjust.
+sertraline,tramadol,Moderate,Additive serotonergic effects; risk of serotonin syndrome.

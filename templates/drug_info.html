@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}DrugSafe - Drug Information{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+
+    <div class="text-center mb-4">
+        <h2>Drug Information Lookup</h2>
+    </div>
+
+    <form id="drug-info-form">
+        <input type="text" id="drugName" class="form-control mb-3"
+               placeholder="Enter drug name (e.g., aspirin)" required>
+
+        <div class="text-center">
+            <button class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    <div id="drug-info-result" class="mt-4"></div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("drug-info-form");
+
+    form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const drug = document.getElementById("drugName").value.trim();
+        const resultDiv = document.getElementById("drug-info-result");
+
+        resultDiv.innerHTML = "Loading...";
+
+        try {
+            const res = await fetch("/drug_info", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ drug: drug })
+            });
+
+            const data = await res.json();
+
+            if (!data.Drug_Info) {
+                resultDiv.innerHTML = "No information found.";
+                return;
+            }
+
+            const d = data.Drug_Info;
+
+            let html = "<h4>" + (d.drug_name || drug).toUpperCase() + "</h4>";
+
+            if (d.brand_name) html += "<p><strong>Brand:</strong> " + d.brand_name + "</p>";
+            if (d.manufacturer) html += "<p><strong>Manufacturer:</strong> " + d.manufacturer + "</p>";
+            if (d.uses) html += "<p><strong>Uses:</strong><br>" + d.uses + "</p>";
+            if (d.warnings) html += "<p><strong>Warnings:</strong><br>" + d.warnings + "</p>";
+            if (d.side_effects) html += "<p><strong>Side Effects:</strong><br>" + d.side_effects + "</p>";
+
+            html += "<hr><small>Source: OpenFDA</small>";
+
+            resultDiv.innerHTML = html;
+
+        } catch (err) {
+            resultDiv.innerHTML = "Error: " + err.message;
+        }
+    });
+
+});
+</script>
+{% endblock %}

@@ -1,0 +1,4202 @@
+[
+  {
+    "drug_name": "drug_1",
+    "generic_name": "generic_1",
+    "class": "Beta Blocker",
+    "uses": [
+      "Mental health treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Rash"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_2",
+    "generic_name": "generic_2",
+    "class": "Anticoagulant",
+    "uses": [
+      "Blood pressure control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_3",
+    "generic_name": "generic_3",
+    "class": "Anticoagulant",
+    "uses": [
+      "Blood sugar control",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_4",
+    "generic_name": "generic_4",
+    "class": "Beta Blocker",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Nausea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_5",
+    "generic_name": "generic_5",
+    "class": "Antiviral",
+    "uses": [
+      "Infection treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Headache"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_6",
+    "generic_name": "generic_6",
+    "class": "Analgesic",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Rash"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_7",
+    "generic_name": "generic_7",
+    "class": "Analgesic",
+    "uses": [
+      "Infection treatment",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_8",
+    "generic_name": "generic_8",
+    "class": "Antihypertensive",
+    "uses": [
+      "Pain relief",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_9",
+    "generic_name": "generic_9",
+    "class": "Antidepressant",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Nausea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_10",
+    "generic_name": "generic_10",
+    "class": "Antidiabetic",
+    "uses": [
+      "Clot prevention",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Nausea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_11",
+    "generic_name": "generic_11",
+    "class": "Antiviral",
+    "uses": [
+      "Fever reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_12",
+    "generic_name": "generic_12",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_13",
+    "generic_name": "generic_13",
+    "class": "Statin",
+    "uses": [
+      "Clot prevention",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_14",
+    "generic_name": "generic_14",
+    "class": "Antifungal",
+    "uses": [
+      "Infection treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_15",
+    "generic_name": "generic_15",
+    "class": "Antihypertensive",
+    "uses": [
+      "Pain relief",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_16",
+    "generic_name": "generic_16",
+    "class": "Beta Blocker",
+    "uses": [
+      "Mental health treatment",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_17",
+    "generic_name": "generic_17",
+    "class": "Analgesic",
+    "uses": [
+      "Infection treatment",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_18",
+    "generic_name": "generic_18",
+    "class": "Antidepressant",
+    "uses": [
+      "Infection treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_19",
+    "generic_name": "generic_19",
+    "class": "Antifungal",
+    "uses": [
+      "Clot prevention",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_20",
+    "generic_name": "generic_20",
+    "class": "NSAID",
+    "uses": [
+      "Fever reduction",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_21",
+    "generic_name": "generic_21",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_22",
+    "generic_name": "generic_22",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Clot prevention",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_23",
+    "generic_name": "generic_23",
+    "class": "Antidiabetic",
+    "uses": [
+      "Inflammation control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_24",
+    "generic_name": "generic_24",
+    "class": "Statin",
+    "uses": [
+      "Mental health treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Headache"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_25",
+    "generic_name": "generic_25",
+    "class": "Antibiotic",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_26",
+    "generic_name": "generic_26",
+    "class": "Anticoagulant",
+    "uses": [
+      "Blood pressure control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Nausea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_27",
+    "generic_name": "generic_27",
+    "class": "Beta Blocker",
+    "uses": [
+      "Cholesterol reduction",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_28",
+    "generic_name": "generic_28",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_29",
+    "generic_name": "generic_29",
+    "class": "Antifungal",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_30",
+    "generic_name": "generic_30",
+    "class": "Antidepressant",
+    "uses": [
+      "Blood pressure control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_31",
+    "generic_name": "generic_31",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_32",
+    "generic_name": "generic_32",
+    "class": "Antihypertensive",
+    "uses": [
+      "Clot prevention",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_33",
+    "generic_name": "generic_33",
+    "class": "Antidiabetic",
+    "uses": [
+      "Pain relief",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_34",
+    "generic_name": "generic_34",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_35",
+    "generic_name": "generic_35",
+    "class": "Analgesic",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_36",
+    "generic_name": "generic_36",
+    "class": "Analgesic",
+    "uses": [
+      "Inflammation control",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Rash"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_37",
+    "generic_name": "generic_37",
+    "class": "Analgesic",
+    "uses": [
+      "Blood sugar control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_38",
+    "generic_name": "generic_38",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Cholesterol reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_39",
+    "generic_name": "generic_39",
+    "class": "Antifungal",
+    "uses": [
+      "Fever reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_40",
+    "generic_name": "generic_40",
+    "class": "Antihypertensive",
+    "uses": [
+      "Fever reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Fatigue"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_41",
+    "generic_name": "generic_41",
+    "class": "Anticoagulant",
+    "uses": [
+      "Cholesterol reduction",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_42",
+    "generic_name": "generic_42",
+    "class": "Antiviral",
+    "uses": [
+      "Blood sugar control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_43",
+    "generic_name": "generic_43",
+    "class": "Antifungal",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_44",
+    "generic_name": "generic_44",
+    "class": "Analgesic",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_45",
+    "generic_name": "generic_45",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood sugar control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_46",
+    "generic_name": "generic_46",
+    "class": "Antidepressant",
+    "uses": [
+      "Fever reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_47",
+    "generic_name": "generic_47",
+    "class": "Antiviral",
+    "uses": [
+      "Cholesterol reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_48",
+    "generic_name": "generic_48",
+    "class": "NSAID",
+    "uses": [
+      "Cholesterol reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_49",
+    "generic_name": "generic_49",
+    "class": "Analgesic",
+    "uses": [
+      "Blood sugar control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_50",
+    "generic_name": "generic_50",
+    "class": "Antihypertensive",
+    "uses": [
+      "Clot prevention",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_51",
+    "generic_name": "generic_51",
+    "class": "Statin",
+    "uses": [
+      "Pain relief",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Vomiting"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_52",
+    "generic_name": "generic_52",
+    "class": "Statin",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_53",
+    "generic_name": "generic_53",
+    "class": "Statin",
+    "uses": [
+      "Inflammation control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_54",
+    "generic_name": "generic_54",
+    "class": "Statin",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_55",
+    "generic_name": "generic_55",
+    "class": "Antidiabetic",
+    "uses": [
+      "Mental health treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_56",
+    "generic_name": "generic_56",
+    "class": "Analgesic",
+    "uses": [
+      "Blood sugar control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_57",
+    "generic_name": "generic_57",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_58",
+    "generic_name": "generic_58",
+    "class": "Beta Blocker",
+    "uses": [
+      "Inflammation control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_59",
+    "generic_name": "generic_59",
+    "class": "Beta Blocker",
+    "uses": [
+      "Cholesterol reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_60",
+    "generic_name": "generic_60",
+    "class": "Antifungal",
+    "uses": [
+      "Infection treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_61",
+    "generic_name": "generic_61",
+    "class": "Antiviral",
+    "uses": [
+      "Pain relief",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_62",
+    "generic_name": "generic_62",
+    "class": "Anticoagulant",
+    "uses": [
+      "Cholesterol reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Nausea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_63",
+    "generic_name": "generic_63",
+    "class": "Antidiabetic",
+    "uses": [
+      "Fever reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_64",
+    "generic_name": "generic_64",
+    "class": "Antiviral",
+    "uses": [
+      "Fever reduction",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_65",
+    "generic_name": "generic_65",
+    "class": "Antiviral",
+    "uses": [
+      "Clot prevention",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_66",
+    "generic_name": "generic_66",
+    "class": "Antihypertensive",
+    "uses": [
+      "Infection treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_67",
+    "generic_name": "generic_67",
+    "class": "Antidepressant",
+    "uses": [
+      "Pain relief",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_68",
+    "generic_name": "generic_68",
+    "class": "Antidepressant",
+    "uses": [
+      "Infection treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_69",
+    "generic_name": "generic_69",
+    "class": "NSAID",
+    "uses": [
+      "Pain relief",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_70",
+    "generic_name": "generic_70",
+    "class": "Analgesic",
+    "uses": [
+      "Pain relief",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_71",
+    "generic_name": "generic_71",
+    "class": "Antibiotic",
+    "uses": [
+      "Infection treatment",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_72",
+    "generic_name": "generic_72",
+    "class": "Antifungal",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_73",
+    "generic_name": "generic_73",
+    "class": "Analgesic",
+    "uses": [
+      "Infection treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_74",
+    "generic_name": "generic_74",
+    "class": "Antidiabetic",
+    "uses": [
+      "Mental health treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Rash"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_75",
+    "generic_name": "generic_75",
+    "class": "Antibiotic",
+    "uses": [
+      "Pain relief",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Bleeding"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_76",
+    "generic_name": "generic_76",
+    "class": "Anticoagulant",
+    "uses": [
+      "Fever reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_77",
+    "generic_name": "generic_77",
+    "class": "Antifungal",
+    "uses": [
+      "Mental health treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Bleeding"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_78",
+    "generic_name": "generic_78",
+    "class": "Analgesic",
+    "uses": [
+      "Inflammation control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_79",
+    "generic_name": "generic_79",
+    "class": "Beta Blocker",
+    "uses": [
+      "Inflammation control",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_80",
+    "generic_name": "generic_80",
+    "class": "Antiviral",
+    "uses": [
+      "Infection treatment",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_81",
+    "generic_name": "generic_81",
+    "class": "Anticoagulant",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_82",
+    "generic_name": "generic_82",
+    "class": "Antidiabetic",
+    "uses": [
+      "Inflammation control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_83",
+    "generic_name": "generic_83",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Clot prevention",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_84",
+    "generic_name": "generic_84",
+    "class": "Beta Blocker",
+    "uses": [
+      "Fever reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_85",
+    "generic_name": "generic_85",
+    "class": "Antidiabetic",
+    "uses": [
+      "Pain relief",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_86",
+    "generic_name": "generic_86",
+    "class": "Antiviral",
+    "uses": [
+      "Blood pressure control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_87",
+    "generic_name": "generic_87",
+    "class": "Anticoagulant",
+    "uses": [
+      "Fever reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_88",
+    "generic_name": "generic_88",
+    "class": "Antiviral",
+    "uses": [
+      "Clot prevention",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_89",
+    "generic_name": "generic_89",
+    "class": "Antifungal",
+    "uses": [
+      "Clot prevention",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_90",
+    "generic_name": "generic_90",
+    "class": "Antifungal",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_91",
+    "generic_name": "generic_91",
+    "class": "NSAID",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_92",
+    "generic_name": "generic_92",
+    "class": "Antidiabetic",
+    "uses": [
+      "Clot prevention",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_93",
+    "generic_name": "generic_93",
+    "class": "Beta Blocker",
+    "uses": [
+      "Infection treatment",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_94",
+    "generic_name": "generic_94",
+    "class": "Antidepressant",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_95",
+    "generic_name": "generic_95",
+    "class": "Anticoagulant",
+    "uses": [
+      "Inflammation control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_96",
+    "generic_name": "generic_96",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Blood pressure control",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_97",
+    "generic_name": "generic_97",
+    "class": "Antifungal",
+    "uses": [
+      "Fever reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_98",
+    "generic_name": "generic_98",
+    "class": "Antidepressant",
+    "uses": [
+      "Infection treatment",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_99",
+    "generic_name": "generic_99",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Inflammation control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_100",
+    "generic_name": "generic_100",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_101",
+    "generic_name": "generic_101",
+    "class": "Statin",
+    "uses": [
+      "Pain relief",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_102",
+    "generic_name": "generic_102",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Headache"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_103",
+    "generic_name": "generic_103",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood sugar control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Nausea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_104",
+    "generic_name": "generic_104",
+    "class": "Antidiabetic",
+    "uses": [
+      "Fever reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_105",
+    "generic_name": "generic_105",
+    "class": "Analgesic",
+    "uses": [
+      "Inflammation control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_106",
+    "generic_name": "generic_106",
+    "class": "Antiviral",
+    "uses": [
+      "Fever reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_107",
+    "generic_name": "generic_107",
+    "class": "Antidiabetic",
+    "uses": [
+      "Pain relief",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_108",
+    "generic_name": "generic_108",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Clot prevention",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_109",
+    "generic_name": "generic_109",
+    "class": "Anticoagulant",
+    "uses": [
+      "Mental health treatment",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_110",
+    "generic_name": "generic_110",
+    "class": "Antibiotic",
+    "uses": [
+      "Mental health treatment",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_111",
+    "generic_name": "generic_111",
+    "class": "Beta Blocker",
+    "uses": [
+      "Pain relief",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_112",
+    "generic_name": "generic_112",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_113",
+    "generic_name": "generic_113",
+    "class": "Antidiabetic",
+    "uses": [
+      "Infection treatment",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_114",
+    "generic_name": "generic_114",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_115",
+    "generic_name": "generic_115",
+    "class": "Antifungal",
+    "uses": [
+      "Fever reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Rash"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_116",
+    "generic_name": "generic_116",
+    "class": "Statin",
+    "uses": [
+      "Mental health treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Nausea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_117",
+    "generic_name": "generic_117",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Cholesterol reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_118",
+    "generic_name": "generic_118",
+    "class": "NSAID",
+    "uses": [
+      "Infection treatment",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_119",
+    "generic_name": "generic_119",
+    "class": "Antidepressant",
+    "uses": [
+      "Fever reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Dizziness"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_120",
+    "generic_name": "generic_120",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_121",
+    "generic_name": "generic_121",
+    "class": "Analgesic",
+    "uses": [
+      "Cholesterol reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_122",
+    "generic_name": "generic_122",
+    "class": "Antiviral",
+    "uses": [
+      "Blood pressure control",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_123",
+    "generic_name": "generic_123",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood sugar control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_124",
+    "generic_name": "generic_124",
+    "class": "NSAID",
+    "uses": [
+      "Blood sugar control",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_125",
+    "generic_name": "generic_125",
+    "class": "Antidepressant",
+    "uses": [
+      "Infection treatment",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Nausea"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_126",
+    "generic_name": "generic_126",
+    "class": "Beta Blocker",
+    "uses": [
+      "Pain relief",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_127",
+    "generic_name": "generic_127",
+    "class": "Beta Blocker",
+    "uses": [
+      "Clot prevention",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Rash"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_128",
+    "generic_name": "generic_128",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood pressure control",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_129",
+    "generic_name": "generic_129",
+    "class": "Antibiotic",
+    "uses": [
+      "Infection treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_130",
+    "generic_name": "generic_130",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Clot prevention",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_131",
+    "generic_name": "generic_131",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood pressure control",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_132",
+    "generic_name": "generic_132",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood sugar control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_133",
+    "generic_name": "generic_133",
+    "class": "Beta Blocker",
+    "uses": [
+      "Mental health treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_134",
+    "generic_name": "generic_134",
+    "class": "NSAID",
+    "uses": [
+      "Clot prevention",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_135",
+    "generic_name": "generic_135",
+    "class": "NSAID",
+    "uses": [
+      "Blood pressure control",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Rash"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_136",
+    "generic_name": "generic_136",
+    "class": "Beta Blocker",
+    "uses": [
+      "Inflammation control",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_137",
+    "generic_name": "generic_137",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood sugar control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_138",
+    "generic_name": "generic_138",
+    "class": "Antihypertensive",
+    "uses": [
+      "Fever reduction",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_139",
+    "generic_name": "generic_139",
+    "class": "Anticoagulant",
+    "uses": [
+      "Clot prevention",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_140",
+    "generic_name": "generic_140",
+    "class": "Antifungal",
+    "uses": [
+      "Fever reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_141",
+    "generic_name": "generic_141",
+    "class": "Antihypertensive",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_142",
+    "generic_name": "generic_142",
+    "class": "NSAID",
+    "uses": [
+      "Fever reduction",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Rash"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_143",
+    "generic_name": "generic_143",
+    "class": "Antidepressant",
+    "uses": [
+      "Blood sugar control",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_144",
+    "generic_name": "generic_144",
+    "class": "Antihypertensive",
+    "uses": [
+      "Infection treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_145",
+    "generic_name": "generic_145",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Pain relief",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_146",
+    "generic_name": "generic_146",
+    "class": "Beta Blocker",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Rash"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_147",
+    "generic_name": "generic_147",
+    "class": "Antifungal",
+    "uses": [
+      "Infection treatment",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Headache"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_148",
+    "generic_name": "generic_148",
+    "class": "NSAID",
+    "uses": [
+      "Pain relief",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Dizziness"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_149",
+    "generic_name": "generic_149",
+    "class": "Beta Blocker",
+    "uses": [
+      "Blood sugar control",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_150",
+    "generic_name": "generic_150",
+    "class": "Antiviral",
+    "uses": [
+      "Mental health treatment",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_151",
+    "generic_name": "generic_151",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood sugar control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_152",
+    "generic_name": "generic_152",
+    "class": "NSAID",
+    "uses": [
+      "Fever reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_153",
+    "generic_name": "generic_153",
+    "class": "Anticoagulant",
+    "uses": [
+      "Clot prevention",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_154",
+    "generic_name": "generic_154",
+    "class": "Antidiabetic",
+    "uses": [
+      "Blood sugar control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_155",
+    "generic_name": "generic_155",
+    "class": "Antiviral",
+    "uses": [
+      "Inflammation control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_156",
+    "generic_name": "generic_156",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Nausea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_157",
+    "generic_name": "generic_157",
+    "class": "Statin",
+    "uses": [
+      "Pain relief",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_158",
+    "generic_name": "generic_158",
+    "class": "Antidiabetic",
+    "uses": [
+      "Fever reduction",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_159",
+    "generic_name": "generic_159",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_160",
+    "generic_name": "generic_160",
+    "class": "Antiviral",
+    "uses": [
+      "Pain relief",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_161",
+    "generic_name": "generic_161",
+    "class": "Antidepressant",
+    "uses": [
+      "Blood pressure control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_162",
+    "generic_name": "generic_162",
+    "class": "Antiviral",
+    "uses": [
+      "Inflammation control",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_163",
+    "generic_name": "generic_163",
+    "class": "Antibiotic",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Nausea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_164",
+    "generic_name": "generic_164",
+    "class": "Anticoagulant",
+    "uses": [
+      "Pain relief",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_165",
+    "generic_name": "generic_165",
+    "class": "Antibiotic",
+    "uses": [
+      "Pain relief",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_166",
+    "generic_name": "generic_166",
+    "class": "Statin",
+    "uses": [
+      "Clot prevention",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_167",
+    "generic_name": "generic_167",
+    "class": "Antihypertensive",
+    "uses": [
+      "Fever reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Fatigue"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_168",
+    "generic_name": "generic_168",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_169",
+    "generic_name": "generic_169",
+    "class": "Beta Blocker",
+    "uses": [
+      "Inflammation control",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_170",
+    "generic_name": "generic_170",
+    "class": "Statin",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_171",
+    "generic_name": "generic_171",
+    "class": "Anticoagulant",
+    "uses": [
+      "Blood pressure control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_172",
+    "generic_name": "generic_172",
+    "class": "Anticoagulant",
+    "uses": [
+      "Mental health treatment",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_173",
+    "generic_name": "generic_173",
+    "class": "Analgesic",
+    "uses": [
+      "Infection treatment",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_174",
+    "generic_name": "generic_174",
+    "class": "NSAID",
+    "uses": [
+      "Pain relief",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_175",
+    "generic_name": "generic_175",
+    "class": "Antiviral",
+    "uses": [
+      "Blood sugar control",
+      "Inflammation control"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_176",
+    "generic_name": "generic_176",
+    "class": "Antidepressant",
+    "uses": [
+      "Inflammation control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_177",
+    "generic_name": "generic_177",
+    "class": "Beta Blocker",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_178",
+    "generic_name": "generic_178",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Inflammation control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Rash"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_179",
+    "generic_name": "generic_179",
+    "class": "Statin",
+    "uses": [
+      "Mental health treatment",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_180",
+    "generic_name": "generic_180",
+    "class": "Antihypertensive",
+    "uses": [
+      "Fever reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_181",
+    "generic_name": "generic_181",
+    "class": "Statin",
+    "uses": [
+      "Fever reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_182",
+    "generic_name": "generic_182",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Blood pressure control",
+      "Pain relief"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_183",
+    "generic_name": "generic_183",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Cholesterol reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_184",
+    "generic_name": "generic_184",
+    "class": "Analgesic",
+    "uses": [
+      "Inflammation control",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Nausea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_185",
+    "generic_name": "generic_185",
+    "class": "Antifungal",
+    "uses": [
+      "Fever reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_186",
+    "generic_name": "generic_186",
+    "class": "Antifungal",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Rash"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_187",
+    "generic_name": "generic_187",
+    "class": "Antiviral",
+    "uses": [
+      "Fever reduction",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Risk of bleeding",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_188",
+    "generic_name": "generic_188",
+    "class": "Statin",
+    "uses": [
+      "Blood pressure control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_189",
+    "generic_name": "generic_189",
+    "class": "Statin",
+    "uses": [
+      "Blood pressure control",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Nausea"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_190",
+    "generic_name": "generic_190",
+    "class": "Antidepressant",
+    "uses": [
+      "Cholesterol reduction",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_191",
+    "generic_name": "generic_191",
+    "class": "Antibiotic",
+    "uses": [
+      "Fever reduction",
+      "Infection treatment"
+    ],
+    "common_side_effects": [
+      "Bleeding",
+      "Vomiting"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_192",
+    "generic_name": "generic_192",
+    "class": "Antidepressant",
+    "uses": [
+      "Inflammation control",
+      "Clot prevention"
+    ],
+    "common_side_effects": [
+      "Vomiting",
+      "Headache"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Use with caution in pregnancy"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_193",
+    "generic_name": "generic_193",
+    "class": "Antiviral",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Diarrhea",
+      "Vomiting"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Avoid alcohol"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_194",
+    "generic_name": "generic_194",
+    "class": "Anticoagulant",
+    "uses": [
+      "Clot prevention",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Headache",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Avoid alcohol",
+      "May cause drowsiness"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_195",
+    "generic_name": "generic_195",
+    "class": "Anticoagulant",
+    "uses": [
+      "Pain relief",
+      "Mental health treatment"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Nausea"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_196",
+    "generic_name": "generic_196",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Inflammation control",
+      "Blood pressure control"
+    ],
+    "common_side_effects": [
+      "Fatigue",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Use with caution in pregnancy",
+      "Monitor kidney function"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_197",
+    "generic_name": "generic_197",
+    "class": "Antifungal",
+    "uses": [
+      "Clot prevention",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Rash",
+      "Bleeding"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Monitor liver function"
+    ],
+    "pregnancy_category": "B",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_198",
+    "generic_name": "generic_198",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Fever reduction",
+      "Cholesterol reduction"
+    ],
+    "common_side_effects": [
+      "Dizziness",
+      "Headache"
+    ],
+    "warnings": [
+      "Monitor liver function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "D",
+    "metabolism": "Liver",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_199",
+    "generic_name": "generic_199",
+    "class": "ACE Inhibitor",
+    "uses": [
+      "Mental health treatment",
+      "Blood sugar control"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Bleeding"
+    ],
+    "warnings": [
+      "May cause drowsiness",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "C",
+    "metabolism": "Liver (CYP450)",
+    "excretion": "Bile",
+    "source": "synthetic_openfda_style"
+  },
+  {
+    "drug_name": "drug_200",
+    "generic_name": "generic_200",
+    "class": "Antihypertensive",
+    "uses": [
+      "Cholesterol reduction",
+      "Fever reduction"
+    ],
+    "common_side_effects": [
+      "Nausea",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Monitor kidney function",
+      "Risk of bleeding"
+    ],
+    "pregnancy_category": "A",
+    "metabolism": "Kidney",
+    "excretion": "Urine",
+    "source": "synthetic_openfda_style"
+  }
+]

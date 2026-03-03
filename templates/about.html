@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}DrugSafe - About Us{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Mission Section -->
+    <div class="row mb-5">
+        <div class="col-md-8 mx-auto text-center">
+            <h1 class="display-4 mb-4">Our Mission</h1>
+            <p class="lead">Making medication safety information accessible to everyone through innovative technology and reliable data.</p>
+        </div>
+    </div>
+
+    <!-- Vision Cards -->
+    <div class="row mb-5">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-lightbulb text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h3>Innovation</h3>
+                    <p class="text-muted">Using cutting-edge AI technology to provide accurate drug-food interaction predictions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-shield-check text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h3>Safety</h3>
+                    <p class="text-muted">Prioritizing user safety through comprehensive data analysis and clear recommendations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-people text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h3>Accessibility</h3>
+                    <p class="text-muted">Making vital health information available to everyone, anywhere, anytime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technology Section -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center mb-4">Our Technology</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4><i class="bi bi-cpu text-primary me-2"></i>AI-Powered Analysis</h4>
+                            <p>Our system uses advanced machine learning algorithms to analyze drug-food interactions based on extensive medical data.</p>
+                            
+                            <h4 class="mt-4"><i class="bi bi-database text-primary me-2"></i>Comprehensive Database</h4>
+                            <p>We maintain a growing database of drugs, foods, and their interactions, regularly updated with the latest research.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4><i class="bi bi-graph-up text-primary me-2"></i>High Accuracy</h4>
+                            <p>Our prediction model achieves over 90% accuracy in identifying potential interactions.</p>
+                            
+                            <h4 class="mt-4"><i class="bi bi-shield-lock text-primary me-2"></i>Safety First</h4>
+                            <p>We prioritize user safety by providing clear warnings and detailed explanations for all identified interactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="row mb-5">
+        <div class="col-12 text-center mb-4">
+            <h2>Our Team</h2>
+            <p class="lead text-muted">Dedicated professionals working to make medication safety accessible</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <img src="https://ui-avatars.com/api/?name=B.+HARISH&background=random" class="rounded-circle mb-3" alt="T. MALVIKA" width="100">
+                    <h4>B. HARISH</h4>
+                    <p class="text-muted">Team Lead</p>
+                    <p>I am a student of Computer Science and Engineering(AIML) at the NNRG. I am a passionate and dedicated student who is always looking for new challenges and opportunities to learn.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <img src="https://ui-avatars.com/api/?name=G.+NIKHILTEJA&background=random" class="rounded-circle mb-3" alt="R. KAUSHIK" width="100">
+                    <h4>G. NIKHIL TEJA</h4>
+                    <p class="text-muted">Web Developer</p>
+                    <p>Im student of Computer Science and Engineering(AIML) at the NNRG. I am a passionate and dedicated student who is always looking for new challenges and opportunities to learn.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <img src="https://ui-avatars.com/api/?name=CH.+PRASHANTHREDDY&background=random" class="rounded-circle mb-3" alt="M.K.P.PHANI ABHISHEK" width="100">
+                    <h4>CH. PRASHANTH REDDY</h4>
+                    
+                    <p class="text-muted">Research and Development</p>
+                    <p>I am a student of Computer Science and Engineering(AIML) at the NNRG. I am a passionate and dedicated student who is always looking for new challenges and opportunities to learn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card bg-primary text-white">
+                <div class="card-body text-center py-5">
+                    <h2 class="mb-3">Ready to Try DrugSafe?</h2>
+                    <p class="lead mb-4">Start checking drug-food interactions now and make informed decisions about your health.</p>
+                    <a href="/checker" class="btn btn-light btn-lg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
