@@ -1,23 +1,16 @@
 # ==========================================================
-# AI PROVIDER MANAGER (FINAL CLEAN VERSION)
-# Groq Only – No Ollama – Production Ready
+# AI PROVIDER MANAGER (PRODUCTION SAFE VERSION)
+# Groq Only – No Ollama – Render Safe
 # ==========================================================
 
 import os
 import json
 import re
 import requests
-from dotenv import load_dotenv
-
-# ==========================================================
-# 🔐 Load API Key
-# ==========================================================
-load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 
 # ==========================================================
-# 🧠 Prompt Builder for Drug–Drug Interaction
+# 🧠 Prompt Builder
 # ==========================================================
 def build_prompt(drug1, drug2):
     return f"""
@@ -54,17 +47,20 @@ def extract_json(text):
 
 
 # ==========================================================
-# ⚙️ GROQ CALL (Primary & Only AI)
+# ⚙️ GROQ CALL (SAFE VERSION)
 # ==========================================================
 def call_groq(drug1, drug2):
 
-    if not GROQ_API_KEY:
-        raise RuntimeError("Missing GROQ_API_KEY in .env file")
+    # 🔐 Get key at runtime (NOT at import time)
+    api_key = os.getenv("GROQ_API_KEY")
+
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY not set in environment variables")
 
     url = "https://api.groq.com/openai/v1/chat/completions"
 
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
 
@@ -87,7 +83,9 @@ def call_groq(drug1, drug2):
     response = requests.post(url, headers=headers, json=payload, timeout=60)
 
     if response.status_code != 200:
-        raise RuntimeError(f"Groq API error {response.status_code}: {response.text}")
+        raise RuntimeError(
+            f"Groq API error {response.status_code}: {response.text}"
+        )
 
     text = response.json()["choices"][0]["message"]["content"]
 
@@ -101,12 +99,14 @@ def call_groq(drug1, drug2):
 
 
 # ==========================================================
-# 🔁 Main Analyze Function (Groq Only)
+# 🔁 MAIN ANALYZE FUNCTION (NEVER CRASHES)
 # ==========================================================
 def analyze_drug_interaction(drug1, drug2):
     try:
         return call_groq(drug1, drug2)
+
     except Exception as e:
+        # ✅ Never crash server
         return {
             "interaction": f"{drug1} + {drug2}",
             "safety": "Unknown",
