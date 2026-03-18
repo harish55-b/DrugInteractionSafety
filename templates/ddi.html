@@ -24,35 +24,22 @@
 /* Risk Meter */
 .risk-wrap { margin-top: 10px; }
 .risk-label { font-weight: 600; margin-bottom: 6px; }
+
 .risk-bar {
     height: 12px;
     border-radius: 10px;
     background: #e5e7eb;
     overflow: hidden;
 }
+
 .risk-fill {
     height: 12px;
     border-radius: 10px;
 }
+
 .risk-safe .risk-fill { background: #16a34a; }
 .risk-warn .risk-fill { background: #f59e0b; }
 .risk-unsafe .risk-fill { background: #ef4444; }
-
-.powered-by {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    text-align: right;
-    color: #555;
-}
-.provider-badge {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 8px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    background: #e0f2fe;
-    color: #0369a1;
-}
 </style>
 {% endblock %}
 
@@ -184,12 +171,6 @@ document.getElementById("ddi-form").addEventListener("submit", async function(e)
 
             <h6>💬 Medical Advice</h6>
             <p>${r.advice || "Consult healthcare provider."}</p>
-
-            <div class="powered-by">
-                <span class="provider-badge">
-                    Powered by ${r.provider || "Groq"}
-                </span>
-            </div>
         `;
 
         resultDiv.classList.add("show");

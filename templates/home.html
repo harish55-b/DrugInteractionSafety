@@ -4,160 +4,74 @@
 
 {% block content %}
 <div class="container">
-    <!-- Hero Section -->
-    <div class="row align-items-center py-5">
-        <div class="col-lg-6 pe-lg-5">
-            <span class="badge bg-primary bg-opacity-10 text-primary mb-3 px-3 py-2 rounded-pill">
-                <i class="bi bi-shield-check me-1"></i>Trusted by Healthcare Professionals
-            </span>
-            <h1 class="display-4 fw-bold mb-4 lh-sm">Make Informed Decisions About Your Medication</h1>
-            <p class="lead mb-4 text-secondary">Check drug-food interactions instantly with our AI-powered safety checker. Stay informed and safe with your medications.</p>
-            <div class="d-flex gap-3 mb-4">
-                <a href="/checker" class="btn btn-primary btn-lg">
-                    <i class="bi bi-search me-2"></i>Try Safety Checker
-                </a>
-                <a href="/about" class="btn btn-outline-secondary btn-lg">Learn More</a>
-            </div>
-            <div class="d-flex align-items-center gap-4">
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success me-2"></i>
-                    <span>Free to Use</span>
-                </div>
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success me-2"></i>
-                    <span>AI-Powered</span>
-                </div>
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-check-circle-fill text-success me-2"></i>
-                    <span>Instant Results</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-5 mt-lg-0">
-            <div class="position-relative">
-                <div class="bg-primary rounded-4 position-absolute" style="width: 100%; height: 100%; top: -20px; left: 20px; opacity: 0.1;"></div>
-                <img src="https://img.freepik.com/free-vector/pharmacy-medical-concept-illustration_114360-7076.jpg" 
-                     alt="Medical Illustration" 
-                     class="img-fluid rounded-4 shadow-lg position-relative">
-            </div>
-        </div>
+
+    <!-- TOP -->
+    <div class="d-flex justify-content-between align-items-center mt-4 mb-4">
+        <h4 class="fw-bold">Welcome, {{ session.user }} 👋</h4>
+        <a href="/logout" class="btn btn-danger btn-sm">
+            <i class="bi bi-box-arrow-right"></i> Logout
+        </a>
     </div>
 
-    <!-- Features Section -->
-    <div class="row py-5 mt-4">
-        <div class="col-12 text-center mb-5">
-            <span class="badge bg-primary bg-opacity-10 text-primary mb-3 px-3 py-2 rounded-pill">Features</span>
-            <h2 class="section-title">Why Choose DrugSafe?</h2>
-            <p class="lead text-secondary">Our platform offers comprehensive drug-food interaction checking</p>
-        </div>
-        
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 border-0">
-                <div class="card-body p-4">
-                    <div class="feature-icon">
-                        <i class="bi bi-shield-check" style="font-size: 1.5rem;"></i>
-                    </div>
-                    <h4 class="mb-3 fw-bold">Safe & Reliable</h4>
-                    <p class="text-secondary mb-0">AI-powered analysis based on extensive medical data and research</p>
-                </div>
+    <!-- 🔥 MAIN LAYOUT -->
+    <div class="row align-items-center">
+
+        <!-- LEFT SIDE (CARDS) -->
+        <div class="col-lg-5">
+
+            <style>
+                .stack-card {
+                    padding: 20px;
+                    border-radius: 15px;
+                    background: white;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
+                .stack-icon {
+                    font-size: 38px;
+                    margin-bottom: 8px;
+                }
+
+                .stack-btn {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+            </style>
+
+            <!-- FOOD -->
+            <div class="stack-card">
+                <i class="bi bi-apple stack-icon text-primary"></i>
+                <h5>Food–Drug Checker</h5>
+                <a href="/checker" class="btn btn-primary stack-btn">Open</a>
             </div>
-        </div>
-        
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 border-0">
-                <div class="card-body p-4">
-                    <div class="feature-icon">
-                        <i class="bi bi-lightning-charge" style="font-size: 1.5rem;"></i>
-                    </div>
-                    <h4 class="mb-3 fw-bold">Instant Results</h4>
-                    <p class="text-secondary mb-0">Get immediate feedback on potential drug-food interactions</p>
-                </div>
+
+            <!-- DRUG-DRUG -->
+            <div class="stack-card">
+                <!-- 🔥 FIXED ICON -->
+                <i class="bi bi-capsule stack-icon text-success"></i>
+                <h5>Drug–Drug Checker</h5>
+                <a href="/ddi" class="btn btn-success stack-btn">Open</a>
             </div>
-        </div>
-        
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 border-0">
-                <div class="card-body p-4">
-                    <div class="feature-icon">
-                        <i class="bi bi-book" style="font-size: 1.5rem;"></i>
-                    </div>
-                    <h4 class="mb-3 fw-bold">Educational</h4>
-                    <p class="text-secondary mb-0">Detailed explanations and recommendations for each interaction</p>
-                </div>
+
+            <!-- INFO -->
+            <div class="stack-card">
+                <i class="bi bi-info-circle stack-icon text-warning"></i>
+                <h5>Drug Information</h5>
+                <a href="/druginfo" class="btn btn-warning stack-btn">Open</a>
             </div>
+
         </div>
+
+        <!-- RIGHT SIDE (IMAGE) -->
+        <div class="col-lg-7 text-center">
+            <img src="https://img.freepik.com/free-vector/pharmacy-medical-concept-illustration_114360-7076.jpg"
+                 class="img-fluid rounded shadow"
+                 style="max-height: 420px;">
+        </div>
+
     </div>
 
-    <!-- Call to Action -->
-    <div class="row py-5">
-        <div class="col-12">
-            <div class="card bg-gradient border-0 overflow-hidden position-relative">
-                <div class="card-body p-5">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <h2 class="fw-bold mb-3">Ready to Check Your Medications?</h2>
-                            <p class="lead mb-4">Use our safety checker to verify drug-food interactions and make informed decisions about your health.</p>
-                            <a href="/checker" class="btn btn-light btn-lg">
-                                <i class="bi bi-arrow-right-circle me-2"></i>Get Started
-                            </a>
-                        </div>
-                        <div class="col-lg-4 d-none d-lg-block text-end">
-                            <i class="bi bi-capsule-pill" style="font-size: 8rem; opacity: 0.2;"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="position-absolute top-0 end-0 mt-n3 me-n3">
-                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
-                        <circle cx="100" cy="100" r="100" fill="currentColor" fill-opacity="0.1"/>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Stats Section -->
-    <div class="row py-5">
-        <div class="col-12 text-center mb-5">
-            <span class="badge bg-primary bg-opacity-10 text-primary mb-3 px-3 py-2 rounded-pill">Statistics</span>
-            <h2 class="section-title">Our Impact</h2>
-            <p class="lead text-secondary">Helping people make safer medication choices</p>
-        </div>
-        
-        <div class="col-md-3 text-center mb-4">
-            <div class="card border-0 h-100">
-                <div class="card-body p-4">
-                    <h3 class="display-4 fw-bold text-primary mb-2">100+</h3>
-                    <p class="text-secondary mb-0">Drugs in Database</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 text-center mb-4">
-            <div class="card border-0 h-100">
-                <div class="card-body p-4">
-                    <h3 class="display-4 fw-bold text-primary mb-2">50+</h3>
-                    <p class="text-secondary mb-0">Food Items</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 text-center mb-4">
-            <div class="card border-0 h-100">
-                <div class="card-body p-4">
-                    <h3 class="display-4 fw-bold text-primary mb-2">91%</h3>
-                    <p class="text-secondary mb-0">Accuracy Rate</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 text-center mb-4">
-            <div class="card border-0 h-100">
-                <div class="card-body p-4">
-                    <h3 class="display-4 fw-bold text-primary mb-2">24/7</h3>
-                    <p class="text-secondary mb-0">Availability</p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-{% endblock %} 
+{% endblock %}
